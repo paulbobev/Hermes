@@ -1,0 +1,3 @@
+The app is going to mimic Spotify translated songs where it creates an audiobook and goes line by line. Sentence by sentence shows a complete translated sentence with the English translation underneath this desired Spanish translation. Additional features would include individual translation of words using libre translate ABI possibly running in on my own local machine, not the head limits and eleven labs to do the voiceover. 
+
+I was thinking using Qwen tts 1.7b to do the voice over  for cheaper. 
