@@ -13,7 +13,22 @@ To run the application, you need to start both the backend and the frontend.
 
 ---
 
-### 1. Launch the Backend (FastAPI)
+### Quick Start (Recommended)
+
+**Windows:**
+1. Double-click `setup.bat` to automatically install all required frontend and backend dependencies.
+2. Double-click `run.bat` to launch both servers simultaneously in their own windows.
+
+**Mac/Linux:**
+1. Make the scripts executable: `chmod +x setup.sh run.sh`
+2. Run `./setup.sh` to install all dependencies.
+3. Run `./run.sh` to start the frontend and backend concurrently.
+
+---
+
+### Manual Setup
+
+#### 1. Launch the Backend (FastAPI)
 
 1. Navigate to the backend directory:
    ```bash
@@ -29,7 +44,7 @@ To run the application, you need to start both the backend and the frontend.
    ```
    The backend will be available at `http://localhost:8000`.
 
-### 2. Launch the Frontend (Next.js)
+#### 2. Launch the Frontend (Next.js)
 
 1. Open a **new** terminal window and navigate to the frontend directory:
    ```bash

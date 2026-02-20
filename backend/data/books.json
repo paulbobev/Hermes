@@ -1,0 +1,1445 @@
+{
+  "d4052f28-e74a-4b1c-922f-1c426ed853d6": {
+    "id": "d4052f28-e74a-4b1c-922f-1c426ed853d6",
+    "title": "lib_test",
+    "segments": [
+      {
+        "id": 0,
+        "original": "Hola amigo.",
+        "translation": "Hello friend.",
+        "tokens": [
+          {
+            "id": 0,
+            "spanish": "Hola",
+            "english": "Hello"
+          },
+          {
+            "id": 1,
+            "spanish": "amigo.",
+            "english": "friend"
+          }
+        ],
+        "audio_url": "/static/audio_1a04f0bb_0.wav"
+      },
+      {
+        "id": 1,
+        "original": "El sol.",
+        "translation": "The sun.",
+        "tokens": [
+          {
+            "id": 0,
+            "spanish": "El",
+            "english": "the"
+          },
+          {
+            "id": 1,
+            "spanish": "sol.",
+            "english": "sun"
+          }
+        ],
+        "audio_url": "/static/audio_1a04f0bb_1.wav"
+      }
+    ]
+  },
+  "b12b4bb7-2e78-49ed-8457-bf261a65df1d": {
+    "id": "b12b4bb7-2e78-49ed-8457-bf261a65df1d",
+    "title": "www",
+    "segments": [
+      {
+        "id": 0,
+        "original": "Claro que sí.",
+        "translation": "Of course yes.",
+        "tokens": [
+          {
+            "id": 0,
+            "spanish": "Claro",
+            "english": "clearly"
+          },
+          {
+            "id": 1,
+            "spanish": "que",
+            "english": "that"
+          },
+          {
+            "id": 2,
+            "spanish": "sí.",
+            "english": "yes"
+          }
+        ],
+        "audio_url": "/static/audio_0c4fed67_0.wav"
+      },
+      {
+        "id": 1,
+        "original": "Aquí tienes la misma historia narrada de forma continua:\n\nEn el pequeño pueblo de San Juan, donde las calles huelen a jazmín y café recién hecho, vivía una niña llamada Elena.",
+        "translation": "Here is the story told in a continuous form:\n\nIn the small village of San Juan, where the streets smell of jasmine and freshly brewed coffee, lived a girl named Elena.",
+        "tokens": [
+          {
+            "id": 0,
+            "spanish": "Aquí",
+            "english": "here"
+          },
+          {
+            "id": 1,
+            "spanish": "tienes",
+            "english": "you have"
+          },
+          {
+            "id": 2,
+            "spanish": "la",
+            "english": "the"
+          },
+          {
+            "id": 3,
+            "spanish": "misma",
+            "english": "same"
+          },
+          {
+            "id": 4,
+            "spanish": "historia",
+            "english": "story"
+          },
+          {
+            "id": 5,
+            "spanish": "narrada",
+            "english": "told"
+          },
+          {
+            "id": 6,
+            "spanish": "de",
+            "english": "of"
+          },
+          {
+            "id": 7,
+            "spanish": "forma",
+            "english": "form"
+          },
+          {
+            "id": 8,
+            "spanish": "continua:",
+            "english": "continuous"
+          },
+          {
+            "id": 9,
+            "spanish": "En",
+            "english": "in"
+          },
+          {
+            "id": 10,
+            "spanish": "el",
+            "english": "the"
+          },
+          {
+            "id": 11,
+            "spanish": "pequeño",
+            "english": "small"
+          },
+          {
+            "id": 12,
+            "spanish": "pueblo",
+            "english": "village"
+          },
+          {
+            "id": 13,
+            "spanish": "de",
+            "english": "of"
+          },
+          {
+            "id": 14,
+            "spanish": "San",
+            "english": "st."
+          },
+          {
+            "id": 15,
+            "spanish": "Juan,",
+            "english": "John"
+          },
+          {
+            "id": 16,
+            "spanish": "donde",
+            "english": "where"
+          },
+          {
+            "id": 17,
+            "spanish": "las",
+            "english": "the"
+          },
+          {
+            "id": 18,
+            "spanish": "calles",
+            "english": "streets"
+          },
+          {
+            "id": 19,
+            "spanish": "huelen",
+            "english": "smell"
+          },
+          {
+            "id": 20,
+            "spanish": "a",
+            "english": "of"
+          },
+          {
+            "id": 21,
+            "spanish": "jazmín",
+            "english": "jasmine"
+          },
+          {
+            "id": 22,
+            "spanish": "y",
+            "english": "and"
+          },
+          {
+            "id": 23,
+            "spanish": "café",
+            "english": "coffee"
+          },
+          {
+            "id": 24,
+            "spanish": "recién",
+            "english": "freshly"
+          },
+          {
+            "id": 25,
+            "spanish": "hecho,",
+            "english": "made"
+          },
+          {
+            "id": 26,
+            "spanish": "vivía",
+            "english": "lived"
+          },
+          {
+            "id": 27,
+            "spanish": "una",
+            "english": "a"
+          },
+          {
+            "id": 28,
+            "spanish": "niña",
+            "english": "girl"
+          },
+          {
+            "id": 29,
+            "spanish": "llamada",
+            "english": "called"
+          },
+          {
+            "id": 30,
+            "spanish": "Elena.",
+            "english": "Elena"
+          }
+        ],
+        "audio_url": "/static/audio_0c4fed67_1.wav"
+      },
+      {
+        "id": 2,
+        "original": "Un sábado por la tarde, mientras exploraba el desván de su abuela, Elena encontró una caja de madera tallada con extraños símbolos.",
+        "translation": "On a Saturday afternoon, while exploring her grandmother's attic, Elena found a carved wooden box with strange symbols.",
+        "tokens": [
+          {
+            "id": 0,
+            "spanish": "Un",
+            "english": ""
+          },
+          {
+            "id": 1,
+            "spanish": "sábado",
+            "english": ""
+          },
+          {
+            "id": 2,
+            "spanish": "por",
+            "english": ""
+          },
+          {
+            "id": 3,
+            "spanish": "la",
+            "english": ""
+          },
+          {
+            "id": 4,
+            "spanish": "tarde,",
+            "english": ""
+          },
+          {
+            "id": 5,
+            "spanish": "mientras",
+            "english": ""
+          },
+          {
+            "id": 6,
+            "spanish": "exploraba",
+            "english": ""
+          },
+          {
+            "id": 7,
+            "spanish": "el",
+            "english": ""
+          },
+          {
+            "id": 8,
+            "spanish": "desván",
+            "english": ""
+          },
+          {
+            "id": 9,
+            "spanish": "de",
+            "english": ""
+          },
+          {
+            "id": 10,
+            "spanish": "su",
+            "english": ""
+          },
+          {
+            "id": 11,
+            "spanish": "abuela,",
+            "english": ""
+          },
+          {
+            "id": 12,
+            "spanish": "Elena",
+            "english": ""
+          },
+          {
+            "id": 13,
+            "spanish": "encontró",
+            "english": ""
+          },
+          {
+            "id": 14,
+            "spanish": "una",
+            "english": ""
+          },
+          {
+            "id": 15,
+            "spanish": "caja",
+            "english": ""
+          },
+          {
+            "id": 16,
+            "spanish": "de",
+            "english": ""
+          },
+          {
+            "id": 17,
+            "spanish": "madera",
+            "english": ""
+          },
+          {
+            "id": 18,
+            "spanish": "tallada",
+            "english": ""
+          },
+          {
+            "id": 19,
+            "spanish": "con",
+            "english": ""
+          },
+          {
+            "id": 20,
+            "spanish": "extraños",
+            "english": ""
+          },
+          {
+            "id": 21,
+            "spanish": "símbolos.",
+            "english": ""
+          }
+        ],
+        "audio_url": "/static/audio_0c4fed67_2.wav"
+      },
+      {
+        "id": 3,
+        "original": "Dentro de la caja, envuelto en seda azul, había un reloj de arena.",
+        "translation": "Inside the box, wrapped in blue silk, was an hourglass.",
+        "tokens": [
+          {
+            "id": 0,
+            "spanish": "Dentro",
+            "english": "inside"
+          },
+          {
+            "id": 1,
+            "spanish": "de",
+            "english": "of"
+          },
+          {
+            "id": 2,
+            "spanish": "la",
+            "english": "the"
+          },
+          {
+            "id": 3,
+            "spanish": "caja,",
+            "english": "box"
+          },
+          {
+            "id": 4,
+            "spanish": "envuelto",
+            "english": "wrapped"
+          },
+          {
+            "id": 5,
+            "spanish": "en",
+            "english": "in"
+          },
+          {
+            "id": 6,
+            "spanish": "seda",
+            "english": "silk"
+          },
+          {
+            "id": 7,
+            "spanish": "azul,",
+            "english": "blue"
+          },
+          {
+            "id": 8,
+            "spanish": "había",
+            "english": "there was"
+          },
+          {
+            "id": 9,
+            "spanish": "un",
+            "english": "a"
+          },
+          {
+            "id": 10,
+            "spanish": "reloj",
+            "english": "clock"
+          },
+          {
+            "id": 11,
+            "spanish": "de",
+            "english": "of"
+          },
+          {
+            "id": 12,
+            "spanish": "arena.",
+            "english": "sand"
+          }
+        ],
+        "audio_url": "/static/audio_0c4fed67_3.wav"
+      },
+      {
+        "id": 4,
+        "original": "Pero no era un reloj común: la arena no era marrón ni blanca, sino de un color dorado brillante que parecía emitir su propia luz.",
+        "translation": "But it was not a common clock: the sand was neither brown nor white, but of a bright golden color that seemed to emit its own light.",
+        "tokens": [
+          {
+            "id": 0,
+            "spanish": "Pero",
+            "english": "but"
+          },
+          {
+            "id": 1,
+            "spanish": "no",
+            "english": "not"
+          },
+          {
+            "id": 2,
+            "spanish": "era",
+            "english": "was"
+          },
+          {
+            "id": 3,
+            "spanish": "un",
+            "english": "a"
+          },
+          {
+            "id": 4,
+            "spanish": "reloj",
+            "english": "clock"
+          },
+          {
+            "id": 5,
+            "spanish": "común:",
+            "english": "common"
+          },
+          {
+            "id": 6,
+            "spanish": "la",
+            "english": "the"
+          },
+          {
+            "id": 7,
+            "spanish": "arena",
+            "english": "sand"
+          },
+          {
+            "id": 8,
+            "spanish": "no",
+            "english": "not"
+          },
+          {
+            "id": 9,
+            "spanish": "era",
+            "english": "was"
+          },
+          {
+            "id": 10,
+            "spanish": "marrón",
+            "english": "brown"
+          },
+          {
+            "id": 11,
+            "spanish": "ni",
+            "english": "nor"
+          },
+          {
+            "id": 12,
+            "spanish": "blanca,",
+            "english": "white"
+          },
+          {
+            "id": 13,
+            "spanish": "sino",
+            "english": "but"
+          },
+          {
+            "id": 14,
+            "spanish": "de",
+            "english": "of"
+          },
+          {
+            "id": 15,
+            "spanish": "un",
+            "english": "a"
+          },
+          {
+            "id": 16,
+            "spanish": "color",
+            "english": "color"
+          },
+          {
+            "id": 17,
+            "spanish": "dorado",
+            "english": "golden"
+          },
+          {
+            "id": 18,
+            "spanish": "brillante",
+            "english": "shiny"
+          },
+          {
+            "id": 19,
+            "spanish": "que",
+            "english": "that"
+          },
+          {
+            "id": 20,
+            "spanish": "parecía",
+            "english": "seemed"
+          },
+          {
+            "id": 21,
+            "spanish": "emitir",
+            "english": "emitting"
+          },
+          {
+            "id": 22,
+            "spanish": "su",
+            "english": "its"
+          },
+          {
+            "id": 23,
+            "spanish": "propia",
+            "english": "own"
+          },
+          {
+            "id": 24,
+            "spanish": "luz.",
+            "english": "light"
+          }
+        ],
+        "audio_url": "/static/audio_0c4fed67_4.wav"
+      },
+      {
+        "id": 5,
+        "original": "Cuando Elena giró el reloj, ocurrió algo asombroso.",
+        "translation": "When Elena turned the clock, something astonishing occurred.",
+        "tokens": [
+          {
+            "id": 0,
+            "spanish": "Cuando",
+            "english": "when"
+          },
+          {
+            "id": 1,
+            "spanish": "Elena",
+            "english": "Elena"
+          },
+          {
+            "id": 2,
+            "spanish": "giró",
+            "english": "turned"
+          },
+          {
+            "id": 3,
+            "spanish": "el",
+            "english": "the"
+          },
+          {
+            "id": 4,
+            "spanish": "reloj,",
+            "english": "clock"
+          },
+          {
+            "id": 5,
+            "spanish": "ocurrió",
+            "english": "something happened"
+          },
+          {
+            "id": 6,
+            "spanish": "algo",
+            "english": "something"
+          },
+          {
+            "id": 7,
+            "spanish": "asombroso.",
+            "english": "amazing"
+          }
+        ],
+        "audio_url": "/static/audio_0c4fed67_5.wav"
+      },
+      {
+        "id": 6,
+        "original": "El sonido del viento en el exterior se detuvo y los pájaros se quedaron congelados en el aire.",
+        "translation": "The sound of the wind outside ceased and the birds remained frozen in mid-air.",
+        "tokens": [
+          {
+            "id": 0,
+            "spanish": "El",
+            "english": "the"
+          },
+          {
+            "id": 1,
+            "spanish": "sonido",
+            "english": "sound"
+          },
+          {
+            "id": 2,
+            "spanish": "del",
+            "english": "of"
+          },
+          {
+            "id": 3,
+            "spanish": "viento",
+            "english": "wind"
+          },
+          {
+            "id": 4,
+            "spanish": "en",
+            "english": "in"
+          },
+          {
+            "id": 5,
+            "spanish": "el",
+            "english": "the"
+          },
+          {
+            "id": 6,
+            "spanish": "exterior",
+            "english": "outside"
+          },
+          {
+            "id": 7,
+            "spanish": "se",
+            "english": "it"
+          },
+          {
+            "id": 8,
+            "spanish": "detuvo",
+            "english": "stopped"
+          },
+          {
+            "id": 9,
+            "spanish": "y",
+            "english": "and"
+          },
+          {
+            "id": 10,
+            "spanish": "los",
+            "english": "the"
+          },
+          {
+            "id": 11,
+            "spanish": "pájaros",
+            "english": "birds"
+          },
+          {
+            "id": 12,
+            "spanish": "se",
+            "english": "it"
+          },
+          {
+            "id": 13,
+            "spanish": "quedaron",
+            "english": "remained"
+          },
+          {
+            "id": 14,
+            "spanish": "congelados",
+            "english": "frozen"
+          },
+          {
+            "id": 15,
+            "spanish": "en",
+            "english": "in"
+          },
+          {
+            "id": 16,
+            "spanish": "el",
+            "english": "the"
+          },
+          {
+            "id": 17,
+            "spanish": "aire.",
+            "english": "air"
+          }
+        ],
+        "audio_url": "/static/audio_0c4fed67_6.wav"
+      },
+      {
+        "id": 7,
+        "original": "El tiempo se había detenido, excepto para ella.",
+        "translation": "Time had stopped, except for her.",
+        "tokens": [
+          {
+            "id": 0,
+            "spanish": "El",
+            "english": ""
+          },
+          {
+            "id": 1,
+            "spanish": "tiempo",
+            "english": ""
+          },
+          {
+            "id": 2,
+            "spanish": "se",
+            "english": ""
+          },
+          {
+            "id": 3,
+            "spanish": "había",
+            "english": ""
+          },
+          {
+            "id": 4,
+            "spanish": "detenido,",
+            "english": ""
+          },
+          {
+            "id": 5,
+            "spanish": "excepto",
+            "english": ""
+          },
+          {
+            "id": 6,
+            "spanish": "para",
+            "english": ""
+          },
+          {
+            "id": 7,
+            "spanish": "ella.",
+            "english": ""
+          }
+        ],
+        "audio_url": "/static/audio_0c4fed67_7.wav"
+      },
+      {
+        "id": 8,
+        "original": "Elena caminó por la casa en total silencio y vio a su gato, Bigotes, suspendido en medio de un salto.",
+        "translation": "Elena walked through the house in total silence and saw her cat, Bigotes, suspended mid-jump.",
+        "tokens": [
+          {
+            "id": 0,
+            "spanish": "Elena",
+            "english": "Elena"
+          },
+          {
+            "id": 1,
+            "spanish": "caminó",
+            "english": "walked"
+          },
+          {
+            "id": 2,
+            "spanish": "por",
+            "english": "through"
+          },
+          {
+            "id": 3,
+            "spanish": "la",
+            "english": "the"
+          },
+          {
+            "id": 4,
+            "spanish": "casa",
+            "english": "house"
+          },
+          {
+            "id": 5,
+            "spanish": "en",
+            "english": "in"
+          },
+          {
+            "id": 6,
+            "spanish": "total",
+            "english": "complete"
+          },
+          {
+            "id": 7,
+            "spanish": "silencio",
+            "english": "silence"
+          },
+          {
+            "id": 8,
+            "spanish": "y",
+            "english": "and"
+          },
+          {
+            "id": 9,
+            "spanish": "vio",
+            "english": ""
+          },
+          {
+            "id": 10,
+            "spanish": "a",
+            "english": "to"
+          },
+          {
+            "id": 11,
+            "spanish": "su",
+            "english": "her"
+          },
+          {
+            "id": 12,
+            "spanish": "gato,",
+            "english": "cat"
+          },
+          {
+            "id": 13,
+            "spanish": "Bigotes,",
+            "english": "Biggles/Blinkers (note: 'bigotes' is typically translated as whiskers, but given the name 'Bigotes', we use Biggles/Blinkers)"
+          },
+          {
+            "id": 14,
+            "spanish": "suspendido",
+            "english": "hanging"
+          },
+          {
+            "id": 15,
+            "spanish": "en",
+            "english": "in"
+          },
+          {
+            "id": 16,
+            "spanish": "medio",
+            "english": "mid"
+          },
+          {
+            "id": 17,
+            "spanish": "de",
+            "english": "of"
+          },
+          {
+            "id": 18,
+            "spanish": "un",
+            "english": "a"
+          },
+          {
+            "id": 19,
+            "spanish": "salto.",
+            "english": "jump"
+          }
+        ],
+        "audio_url": "/static/audio_0c4fed67_8.wav"
+      },
+      {
+        "id": 9,
+        "original": "Aprovechó para comerse una galleta de la cocina sin que nadie se diera cuenta, pero al cabo de unos minutos, empezó a sentirse sola.",
+        "translation": "He took advantage of everyone's absence to eat a cookie from the kitchen, but after a few minutes, he began to feel lonely.",
+        "tokens": [
+          {
+            "id": 0,
+            "spanish": "Aprovechó",
+            "english": "took advantage"
+          },
+          {
+            "id": 1,
+            "spanish": "para",
+            "english": "to"
+          },
+          {
+            "id": 2,
+            "spanish": "comerse",
+            "english": "eat"
+          },
+          {
+            "id": 3,
+            "spanish": "una",
+            "english": "a"
+          },
+          {
+            "id": 4,
+            "spanish": "galleta",
+            "english": "cookie"
+          },
+          {
+            "id": 5,
+            "spanish": "de",
+            "english": "of"
+          },
+          {
+            "id": 6,
+            "spanish": "la",
+            "english": "the"
+          },
+          {
+            "id": 7,
+            "spanish": "cocina",
+            "english": "kitchen"
+          },
+          {
+            "id": 8,
+            "spanish": "sin",
+            "english": "without"
+          },
+          {
+            "id": 9,
+            "spanish": "que",
+            "english": "that"
+          },
+          {
+            "id": 10,
+            "spanish": "nadie",
+            "english": "no one"
+          },
+          {
+            "id": 11,
+            "spanish": "se",
+            "english": "did"
+          },
+          {
+            "id": 12,
+            "spanish": "diera",
+            "english": "notice"
+          },
+          {
+            "id": 13,
+            "spanish": "cuenta,",
+            "english": "it"
+          },
+          {
+            "id": 14,
+            "spanish": "pero",
+            "english": "but"
+          },
+          {
+            "id": 15,
+            "spanish": "al",
+            "english": "after"
+          },
+          {
+            "id": 16,
+            "spanish": "cabo",
+            "english": ""
+          },
+          {
+            "id": 17,
+            "spanish": "de",
+            "english": "of"
+          },
+          {
+            "id": 18,
+            "spanish": "unos",
+            "english": "some"
+          },
+          {
+            "id": 19,
+            "spanish": "minutos,",
+            "english": "minutes"
+          },
+          {
+            "id": 20,
+            "spanish": "empezó",
+            "english": "began"
+          },
+          {
+            "id": 21,
+            "spanish": "a",
+            "english": "to"
+          },
+          {
+            "id": 22,
+            "spanish": "sentirse",
+            "english": "feel"
+          },
+          {
+            "id": 23,
+            "spanish": "sola.",
+            "english": "alone"
+          }
+        ],
+        "audio_url": "/static/audio_0c4fed67_9.wav"
+      },
+      {
+        "id": 10,
+        "original": "El mundo era hermoso, pero sin el movimiento y las voces de su familia, se sentía vacío.",
+        "translation": "The world was beautiful, but without the movement and voices of his family, it felt empty.",
+        "tokens": [
+          {
+            "id": 0,
+            "spanish": "El",
+            "english": "the"
+          },
+          {
+            "id": 1,
+            "spanish": "mundo",
+            "english": "world"
+          },
+          {
+            "id": 2,
+            "spanish": "era",
+            "english": "was"
+          },
+          {
+            "id": 3,
+            "spanish": "hermoso,",
+            "english": "beautiful"
+          },
+          {
+            "id": 4,
+            "spanish": "pero",
+            "english": "but"
+          },
+          {
+            "id": 5,
+            "spanish": "sin",
+            "english": "without"
+          },
+          {
+            "id": 6,
+            "spanish": "el",
+            "english": "the"
+          },
+          {
+            "id": 7,
+            "spanish": "movimiento",
+            "english": "movement"
+          },
+          {
+            "id": 8,
+            "spanish": "y",
+            "english": "and"
+          },
+          {
+            "id": 9,
+            "spanish": "las",
+            "english": "the"
+          },
+          {
+            "id": 10,
+            "spanish": "voces",
+            "english": "voices"
+          },
+          {
+            "id": 11,
+            "spanish": "de",
+            "english": "of"
+          },
+          {
+            "id": 12,
+            "spanish": "su",
+            "english": "his/her"
+          },
+          {
+            "id": 13,
+            "spanish": "familia,",
+            "english": "family"
+          },
+          {
+            "id": 14,
+            "spanish": "se",
+            "english": "it"
+          },
+          {
+            "id": 15,
+            "spanish": "sentía",
+            "english": "felt"
+          },
+          {
+            "id": 16,
+            "spanish": "vacío.",
+            "english": "empty"
+          }
+        ],
+        "audio_url": "/static/audio_0c4fed67_10.wav"
+      },
+      {
+        "id": 11,
+        "original": "Rápidamente, Elena regresó al desván y esperó a que el último grano de arena cayera.",
+        "translation": "Quickly, Elena returned to the attic and waited for the last grain of sand to fall.",
+        "tokens": [
+          {
+            "id": 0,
+            "spanish": "Rápidamente,",
+            "english": "quickly"
+          },
+          {
+            "id": 1,
+            "spanish": "Elena",
+            "english": "Elena"
+          },
+          {
+            "id": 2,
+            "spanish": "regresó",
+            "english": "returned"
+          },
+          {
+            "id": 3,
+            "spanish": "al",
+            "english": "to"
+          },
+          {
+            "id": 4,
+            "spanish": "desván",
+            "english": "attic"
+          },
+          {
+            "id": 5,
+            "spanish": "y",
+            "english": "and"
+          },
+          {
+            "id": 6,
+            "spanish": "esperó",
+            "english": "waited"
+          },
+          {
+            "id": 7,
+            "spanish": "a",
+            "english": "for"
+          },
+          {
+            "id": 8,
+            "spanish": "que",
+            "english": "that"
+          },
+          {
+            "id": 9,
+            "spanish": "el",
+            "english": "the"
+          },
+          {
+            "id": 10,
+            "spanish": "último",
+            "english": "last"
+          },
+          {
+            "id": 11,
+            "spanish": "grano",
+            "english": "grain"
+          },
+          {
+            "id": 12,
+            "spanish": "de",
+            "english": "of"
+          },
+          {
+            "id": 13,
+            "spanish": "arena",
+            "english": "sand"
+          },
+          {
+            "id": 14,
+            "spanish": "cayera.",
+            "english": "fell"
+          }
+        ],
+        "audio_url": "/static/audio_0c4fed67_11.wav"
+      },
+      {
+        "id": 12,
+        "original": "En un instante, el tic-tac del reloj de pared regresó y su abuela la llamó desde la cocina para merendar.",
+        "translation": "In an instant, the ticking of the wall clock resumed and her grandmother called her from the kitchen for tea.",
+        "tokens": [
+          {
+            "id": 0,
+            "spanish": "En",
+            "english": "in"
+          },
+          {
+            "id": 1,
+            "spanish": "un",
+            "english": "a"
+          },
+          {
+            "id": 2,
+            "spanish": "instante,",
+            "english": "instant"
+          },
+          {
+            "id": 3,
+            "spanish": "el",
+            "english": "the"
+          },
+          {
+            "id": 4,
+            "spanish": "tic-tac",
+            "english": "tic-tac"
+          },
+          {
+            "id": 5,
+            "spanish": "del",
+            "english": "of"
+          },
+          {
+            "id": 6,
+            "spanish": "reloj",
+            "english": "clock"
+          },
+          {
+            "id": 7,
+            "spanish": "de",
+            "english": "of"
+          },
+          {
+            "id": 8,
+            "spanish": "pared",
+            "english": "wall"
+          },
+          {
+            "id": 9,
+            "spanish": "regresó",
+            "english": "returned"
+          },
+          {
+            "id": 10,
+            "spanish": "y",
+            "english": "and"
+          },
+          {
+            "id": 11,
+            "spanish": "su",
+            "english": "her"
+          },
+          {
+            "id": 12,
+            "spanish": "abuela",
+            "english": "grandmother"
+          },
+          {
+            "id": 13,
+            "spanish": "la",
+            "english": "the"
+          },
+          {
+            "id": 14,
+            "spanish": "llamó",
+            "english": "called"
+          },
+          {
+            "id": 15,
+            "spanish": "desde",
+            "english": "from"
+          },
+          {
+            "id": 16,
+            "spanish": "la",
+            "english": "the"
+          },
+          {
+            "id": 17,
+            "spanish": "cocina",
+            "english": "kitchen"
+          },
+          {
+            "id": 18,
+            "spanish": "para",
+            "english": "to"
+          },
+          {
+            "id": 19,
+            "spanish": "merendar.",
+            "english": "have茶点"
+          }
+        ],
+        "audio_url": "/static/audio_0c4fed67_12.wav"
+      },
+      {
+        "id": 13,
+        "original": "Elena guardó el reloj secreto en la caja y bajó las escaleras con una sonrisa.",
+        "translation": "Elena put the secret watch in the box and descended the stairs with a smile.",
+        "tokens": [
+          {
+            "id": 0,
+            "spanish": "Elena",
+            "english": "Elena"
+          },
+          {
+            "id": 1,
+            "spanish": "guardó",
+            "english": "stored"
+          },
+          {
+            "id": 2,
+            "spanish": "el",
+            "english": "the"
+          },
+          {
+            "id": 3,
+            "spanish": "reloj",
+            "english": "watch"
+          },
+          {
+            "id": 4,
+            "spanish": "secreto",
+            "english": "secret"
+          },
+          {
+            "id": 5,
+            "spanish": "en",
+            "english": "in"
+          },
+          {
+            "id": 6,
+            "spanish": "la",
+            "english": "the"
+          },
+          {
+            "id": 7,
+            "spanish": "caja",
+            "english": "box"
+          },
+          {
+            "id": 8,
+            "spanish": "y",
+            "english": "and"
+          },
+          {
+            "id": 9,
+            "spanish": "bajó",
+            "english": "descended"
+          },
+          {
+            "id": 10,
+            "spanish": "las",
+            "english": "the"
+          },
+          {
+            "id": 11,
+            "spanish": "escaleras",
+            "english": "stairs"
+          },
+          {
+            "id": 12,
+            "spanish": "con",
+            "english": "with"
+          },
+          {
+            "id": 13,
+            "spanish": "una",
+            "english": "a"
+          },
+          {
+            "id": 14,
+            "spanish": "sonrisa.",
+            "english": "smile"
+          }
+        ],
+        "audio_url": "/static/audio_0c4fed67_13.wav"
+      },
+      {
+        "id": 14,
+        "original": "Había aprendido que, aunque el tiempo es valioso, lo más importante es con quién lo compartes.",
+        "translation": "I had learned that while time is valuable, what matters most is who you share it with.",
+        "tokens": [
+          {
+            "id": 0,
+            "spanish": "Había",
+            "english": "had"
+          },
+          {
+            "id": 1,
+            "spanish": "aprendido",
+            "english": "learned"
+          },
+          {
+            "id": 2,
+            "spanish": "que,",
+            "english": "that"
+          },
+          {
+            "id": 3,
+            "spanish": "aunque",
+            "english": "although"
+          },
+          {
+            "id": 4,
+            "spanish": "el",
+            "english": "the"
+          },
+          {
+            "id": 5,
+            "spanish": "tiempo",
+            "english": "time"
+          },
+          {
+            "id": 6,
+            "spanish": "es",
+            "english": "is"
+          },
+          {
+            "id": 7,
+            "spanish": "valioso,",
+            "english": "valuable"
+          },
+          {
+            "id": 8,
+            "spanish": "lo",
+            "english": "it"
+          },
+          {
+            "id": 9,
+            "spanish": "más",
+            "english": "more"
+          },
+          {
+            "id": 10,
+            "spanish": "importante",
+            "english": "important"
+          },
+          {
+            "id": 11,
+            "spanish": "es",
+            "english": "is"
+          },
+          {
+            "id": 12,
+            "spanish": "con",
+            "english": "with"
+          },
+          {
+            "id": 13,
+            "spanish": "quién",
+            "english": "who"
+          },
+          {
+            "id": 14,
+            "spanish": "lo",
+            "english": "it"
+          },
+          {
+            "id": 15,
+            "spanish": "compartes.",
+            "english": "share"
+          }
+        ],
+        "audio_url": "/static/audio_0c4fed67_14.wav"
+      }
+    ]
+  }
+}

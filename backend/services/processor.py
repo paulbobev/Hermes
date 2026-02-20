@@ -9,7 +9,7 @@ class Processor:
         self.translator = Translator()
         self.tts = TTS()
 
-    def process_text(self, text: str) -> list[SentenceSegment]:
+    async def process_text_stream(self, text: str):
         # 1. Segment text (Simple regex for splitting by . ! ?)
         sentences = [s.strip() for s in re.split(r'(?<=[.!?])\s*', text) if s.strip()]
         
@@ -19,43 +19,35 @@ class Processor:
             if not sentence.strip():
                 continue
                 
+            yield {"type": "progress", "translation": idx, "audio": idx, "total": len(sentences), "message": f"Translating sentence {idx+1}/{len(sentences)}..."}
+            
             # 2. Translate full sentence
             translation = self.translator.translate(sentence)
+            
+            yield {"type": "progress", "translation": idx + 1, "audio": idx, "total": len(sentences), "message": f"Generating audio for sentence {idx+1}/{len(sentences)}..."}
             
             # 3. Create word tokens
             words = sentence.split()
             tokens = []
             
-            # Improved dictionary for the "Reloj de Arena" story
-            word_dict = {
-                "el": "the", "la": "the", "lo": "it/the", "los": "the", "las": "the",
-                "un": "a", "una": "a", "unos": "some", "unas": "some",
-                "de": "of", "del": "of the", "en": "in", "y": "and", "a": "to/at",
-                "reloj": "clock/watch", "arena": "sand", "abuela": "grandmother",
-                "pequeño": "small", "pueblo": "town", "san": "saint", "juan": "john",
-                "donde": "where", "calles": "streets", "huelen": "smell", "jazmín": "jasmine",
-                "café": "coffee", "recién": "freshly", "hecho": "made", "vivía": "lived",
-                "niña": "girl", "llamada": "named", "elena": "elena", "sábado": "saturday", "por": "on",
-                "tarde": "afternoon", "mientras": "while", "exploraba": "exploring", "desván": "attic", "su": "his/her",
-                "encontró": "found", "caja": "box", "madera": "wood", "tallada": "carved", "con": "with", "extraños": "strange",
-                "símbolos": "symbols", "dentro": "inside", "envuelto": "wrapped", "seda": "silk", "azul": "blue",
-                "había": "there was", "pero": "but", "no": "not", "era": "was", "común": "common",
-                "marrón": "brown", "ni": "nor", "blanca": "white", "sino": "but rather", "color": "color", "dorado": "golden",
-                "brillante": "bright", "que": "that", "parecía": "seemed", "emitir": "emit", "propia": "own", "luz": "light"
-            }
-
-            for w_idx, word in enumerate(words):
-                clean_word = word.strip("¿?¡!.,:;").lower()
+            clean_words = [word.strip("¿?¡!.,:;").lower() for word in words]
+            # Use LLM to dynamically translate words in context
+            word_dict = self.translator.translate_words(clean_words, sentence)
+            
+            for w_idx, (word, clean_word) in enumerate(zip(words, clean_words)):
+                english_translation = word_dict.get(clean_word) or word_dict.get(word) or ""
                 tokens.append(WordToken(
                     id=w_idx,
                     spanish=word,
-                    english=word_dict.get(clean_word),
+                    english=english_translation,
                 ))
 
             # 4. Generate Audio
             audio_filename = f"audio_{batch_id}_{idx}.wav"
             audio_path = f"static/{audio_filename}"
             self.tts.generate_audio(sentence, audio_path)
+            
+            yield {"type": "progress", "translation": idx + 1, "audio": idx + 1, "total": len(sentences), "message": f"Completed sentence {idx+1}/{len(sentences)}"}
             
             results.append(SentenceSegment(
                 id=idx,
@@ -64,4 +56,5 @@ class Processor:
                 tokens=tokens,
                 audio_url=f"/static/{audio_filename}"
             ))
-        return results
+            
+        yield {"type": "complete", "results": results}
