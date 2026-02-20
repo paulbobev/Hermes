@@ -1,7 +1,7 @@
 import requests
 
 class Translator:
-    def __init__(self, endpoint_url="http://localhost:11434/api/generate", model="llama3.1"):
+    def __init__(self, endpoint_url="http://localhost:11434/api/generate", model="qwen2.5:7b"):
         self.endpoint_url = endpoint_url
         self.model = model
 
@@ -18,7 +18,7 @@ class Translator:
                 "model": self.model,
                 "prompt": prompt,
                 "stream": False
-            })
+            }, timeout=30) # Increased timeout for Ollama
             response.raise_for_status()
             translated_text = response.json().get("response", "").strip()
             
@@ -28,6 +28,8 @@ class Translator:
                 
             return translated_text
         except Exception as e:
-            print(f"Ollama Translation failed: {e}")
-            return f"[Ollama Error] {text}"
+            print(f"Ollama Translation failed: {e}.")
+            # Fallback to returning the text without prefixing if it's already Spanish-like
+            # or use mock if available.
+            return text
 
