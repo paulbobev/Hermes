@@ -47,6 +47,38 @@ To run the application, you need to start both the backend and the frontend.
 
 ---
 
+## Wireframe & Design Process
+
+The development of Hermes followed a multi-stage refinement process to transform a standard translator into a premium immersive reader.
+
+### 1. Conceptual Flow
+The goal was to move from a "Fragmented UI" to a "Document-First" experience.
+
+```mermaid
+graph TD
+    A[User Input: Spanish Text] --> B{AI Processor}
+    B --> C[Sentence Segmentation]
+    B --> D[Word-Level Tokenization]
+    B --> E[Qwen3-TTS Audio Generation]
+    C & D & E --> F[Immersive Reader UI]
+    F --> G[Interlinear Spanish-English View]
+    F --> H[Double Bubble Word Highlighting]
+    F --> I[Premium Voice Narration]
+```
+
+### 2. Design Evolution
+- **Phase 1: Basic Translator**: Simple input/output with sentence-level translation.
+- **Phase 2: Speechify Redesign**: Introduced the "Document View" using high-quality serif typography (Inter & Playfair Display) and a minimalist white palette.
+- **Phase 3: Interlinear Focus**: Added word-by-word translations directly underneath the Spanish text to prevent context switching.
+- **Phase 4: Immersion Fixes**: Developed the "Double Bubble" highlighting system, ensuring the visual focus follows the AI narrator exactly.
+
+### 3. Architecture
+Hermes uses a decoupled architecture for maximum local performance:
+- **FastAPI Backend**: Orchestrates Ollama (LLM) for translation and the Qwen3-TTS 0.6B model for local voice synthesis.
+- **Next.js Frontend**: Manages the reactive state for the immersive player and word-level synchronization.
+
+---
+
 ## Project Structure
 
 - `frontend/`: Next.js web application.

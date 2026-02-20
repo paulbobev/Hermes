@@ -28,24 +28,28 @@ class Processor:
             
             # Improved dictionary for the "Reloj de Arena" story
             word_dict = {
-                "El": "The", "Reloj": "Clock/Watch", "de": "of", "Arena": "Sand", "la": "the", "Abuela": "Grandmother",
-                "En": "In", "el": "the", "pequeño": "small", "pueblo": "town", "San": "Saint", "Juan": "John",
-                "donde": "where", "las": "the", "calles": "streets", "huelen": "smell", "a": "of/to", "jazmín": "jasmine",
-                "y": "and", "café": "coffee", "recién": "freshly", "hecho": "made", "vivía": "lived", "una": "a",
-                "niña": "girl", "llamada": "named", "Elena": "Elena", "Un": "A", "sábado": "Saturday", "por": "on",
+                "el": "the", "la": "the", "lo": "it/the", "los": "the", "las": "the",
+                "un": "a", "una": "a", "unos": "some", "unas": "some",
+                "de": "of", "del": "of the", "en": "in", "y": "and", "a": "to/at",
+                "reloj": "clock/watch", "arena": "sand", "abuela": "grandmother",
+                "pequeño": "small", "pueblo": "town", "san": "saint", "juan": "john",
+                "donde": "where", "calles": "streets", "huelen": "smell", "jazmín": "jasmine",
+                "café": "coffee", "recién": "freshly", "hecho": "made", "vivía": "lived",
+                "niña": "girl", "llamada": "named", "elena": "elena", "sábado": "saturday", "por": "on",
                 "tarde": "afternoon", "mientras": "while", "exploraba": "exploring", "desván": "attic", "su": "his/her",
                 "encontró": "found", "caja": "box", "madera": "wood", "tallada": "carved", "con": "with", "extraños": "strange",
-                "símbolos": "symbols", "Dentro": "Inside", "envuelto": "wrapped", "seda": "silk", "azul": "blue",
-                "había": "there was", "un": "a", "Pero": "But", "no": "not", "era": "was", "común": "common",
+                "símbolos": "symbols", "dentro": "inside", "envuelto": "wrapped", "seda": "silk", "azul": "blue",
+                "había": "there was", "pero": "but", "no": "not", "era": "was", "común": "common",
                 "marrón": "brown", "ni": "nor", "blanca": "white", "sino": "but rather", "color": "color", "dorado": "golden",
-                "brillante": "bright", "que": "that", "parecía": "seemed", "emitir": "emit", "propia": "own"
+                "brillante": "bright", "que": "that", "parecía": "seemed", "emitir": "emit", "propia": "own", "luz": "light"
             }
 
             for w_idx, word in enumerate(words):
+                clean_word = word.strip("¿?¡!.,:;").lower()
                 tokens.append(WordToken(
                     id=w_idx,
                     spanish=word,
-                    english=word_dict.get(word.strip("¿?¡!.,:;")),
+                    english=word_dict.get(clean_word),
                 ))
 
             # 4. Generate Audio
